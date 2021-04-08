@@ -1,5 +1,4 @@
 function totalPhoneBill(str) {
-    console.log(str)
   var bill = str.split(', ');
   var total = 0;
     for(var i = 0; i < bill.length; i++) {

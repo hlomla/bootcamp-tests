@@ -1,9 +1,6 @@
 function regCheck(regNo, regEnd) {
+    if ( typeof(regNo) != 'string' || typeof(regEnd) != 'string' ){
+        return 'enter valid registration number'
+    }
     return regNo.endsWith(regEnd);
     }
-    
-    
-    console.log(regCheck("GP"));
-    console.log(regCheck("L"));
-    console.log(regCheck("EC"));
-    console.log(regCheck("MP"))
